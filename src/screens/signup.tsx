@@ -9,6 +9,12 @@ const App : FC = () => {
     return(
         <View style={styles.container}>
            <Text>SignUp Screen</Text>
+           <Button
+           title='Login'
+           onPress={() => {
+            login()
+        }}
+           />
         </View>
     )
 }

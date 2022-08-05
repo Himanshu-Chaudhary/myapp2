@@ -6,7 +6,9 @@ import { Text } from 'react-native';
 
 const App = () => {
   return(
-    <Text>hghg</Text>
+    <AuthPorovider>
+      <MainNav/>
+    </AuthPorovider>
   )
 };
 
