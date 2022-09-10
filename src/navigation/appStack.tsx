@@ -1,5 +1,5 @@
 import React, {FC}  from "react";
-import { SignUp, Login } from "../screens";
+import { InstaScheduler} from "../screens";
 import { createStackNavigator } from "@react-navigation/stack";
 
 const {Navigator, Screen} = createStackNavigator()
@@ -7,7 +7,7 @@ const {Navigator, Screen} = createStackNavigator()
 const AppStack : FC = () => {
     return (
         <Navigator>
-            <Screen name="logged in" component={Login}></Screen>
+            <Screen name="Scheduler" component={InstaScheduler}></Screen>
         </Navigator>
     )
 }

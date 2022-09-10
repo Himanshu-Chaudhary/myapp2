@@ -4,15 +4,15 @@ import { AuthContext } from '../context/AuthContext'
 
 const App : FC = () => {
 
-    const {logout} = useContext(AuthContext)
+    const {login} = useContext(AuthContext)
 
     return(
         <View style={styles.container}>
            <Text>Logged In Screen</Text>
            <Button
-           title='logout'
+           title='login'
            onPress={() => {
-            logout()
+            login("sadasd")
         }}
            />
         </View>
